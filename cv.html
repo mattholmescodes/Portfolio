@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./cv.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
-    <title>CV</title>
+    <title>Website</title>
 </head>
 <body>
-    
+    <main>
+        <section class="landing">
+            <nav>
+              <h1 id="logo">CV</h1>
+              <ul class="nav-links">
+                <li><a href="./index.html" class="a-landing">Home</a></li>
+                <li><a href="#" class="a-landing">About Me</a></li>
+                <li><a href="./cv.html" class="a-landing">CV</a></li>
+                <li><a href="./contact.html" class="a-landing">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="cv-layout">
+                <embed src="./CV.pdf" type="application/pdf" width="500px" height="700px"/>
+              </div>
+          </section>
+</main>
+    <div class="intro">
+        <div class="intro-text">
+            <h1 class="hide">
+                <span class="text">My</span>
+            </h1>
+            <h1 class="hide">
+                <span class="text">CV!</span>
+            </h1>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" 
+            integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+        </script>
+    <script src="./app.js"></script>
 </body>
 </html>

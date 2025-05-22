@@ -6,5 +6,6 @@ tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
 tl.fromTo('nav', { opacity: 0 }, { opacity: 1, duration: 1 })
 tl.fromTo('img', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1")
 tl.fromTo('.contact-details', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1")
+tl.fromTo('.cv-layout', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1")
 tl.fromTo('.big-text', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1")
 tl.fromTo('.small-text', { opacity: 0 }, { opacity: 1, duration: 1 })
