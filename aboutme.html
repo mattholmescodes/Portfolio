@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./aboutme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
+    <title>Website</title>
+</head>
+<body>
+    <main>
+        <section class="landing">
+            <nav>
+              <h1 id="logo">About Me</h1>
+              <ul class="nav-links">
+                <li><a href="./index.html" class="a-landing">Home</a></li>
+                <li><a href="./aboutme.html" class="a-landing">About Me</a></li>
+                <li><a href="./cv.html" class="a-landing">CV</a></li>
+                <li><a href="./contact.html" class="a-landing">Contact</a></li>
+              </ul>
+            </nav>
+          
+            <div class="about-row">
+                <div class="about-block">
+                  <img src="./Me.jpg" alt="A picture of me" class="person-image" />
+                  <div class="about-box">
+                    <img src="./contact.png" alt="Contact graphic" class="box-background" />
+                    <h3 class="title">Hi, I'm Matt! </h3>
+                    <p class="box-text">I am 29 years old, currently living in Liverpool. I currently work as an IT Technician at BT, however I am looking to get into the world of software development.
+                        My journey into software development started with a bootcamp course at Manchester Codes, learning both frontend and backend javascript, followed by Harvard's CS50X course, which focused on C, Python and Javascript.
+                        My favourite programming languages are Javascript and Python, with a particular interest in flask and js animations.
+                    </p>
+                  </div>
+                </div>
+              
+                <div class="about-block">
+                  <img src="./Me-3.JPG" alt="A picture of me" class="person-image" />
+                  <div class="about-box">
+                    <img src="./contact.png" alt="Contact graphic" class="box-background" />
+                    <h3 class="title">My Hobbies:</h3>
+                    <p class="box-text">My main hobby is engaging with music, both as a listener and as a musician, and video editing. I play guitar and drums, the former being self taught and the latter being a grade 8 standard.
+                        Outside of music, I also enjoy gaming and esports as a whole, with a particular interest in Call of Duty, Rocket League and EAFC.
+                        I also like traditional sports - I am a big football fan, following Sheffield Wednesday for nearly 25 years and also going to watch local Non-League football when I can.
+                        Check out some of my videos embedded to learn more about me!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+          </section>
+</main>
+    <div class="intro">
+        <div class="intro-text">
+            <h1 class="hide">
+                <span class="text">About</span>
+            </h1>
+            <h1 class="hide">
+                <span class="text">Me!</span>
+            </h1>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" 
+            integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+        </script>
+    <script src="./app.js"></script>
+</body>
+</html>

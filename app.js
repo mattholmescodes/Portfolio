@@ -9,3 +9,5 @@ tl.fromTo('.contact-details', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1"
 tl.fromTo('.cv-layout', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1")
 tl.fromTo('.big-text', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1")
 tl.fromTo('.small-text', { opacity: 0 }, { opacity: 1, duration: 1 })
+tl.fromTo('.title', { opacity: 0 }, { opacity: 1, duration: 1 })
+tl.fromTo('.box-text', { opacity: 0 }, { opacity: 1, duration: 0.5 })
