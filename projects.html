@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/swiper@11.2.8/swiper-bundle.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./projects.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sigmar&display=swap"
+    rel="stylesheet"
+  />
+  <title>Projects</title>
+</head>
+<body>
+  <main>
+    <section class="landing">
+      <nav>
+        <h1 id="logo">Projects</h1>
+        <ul class="nav-links">
+          <li><a href="./index.html" class="a-landing">Home</a></li>
+          <li><a href="./aboutme.html" class="a-landing">About Me</a></li>
+          <li><a href="./cv.html" class="a-landing">CV</a></li>
+          <li><a href="./projects.html" class="a-landing">Projects</a></li>
+          <li><a href="./contact.html" class="a-landing">Contact</a></li>
+        </ul>
+      </nav>
+      <h2 class="big-text">Click on one of the below to view my code!</h2>
+    </section>
+  </main>
+
+  <div class="intro">
+    <div class="intro-text">
+      <h1 class="hide"><span class="text">My</span></h1>
+      <h1 class="hide"><span class="text">Projects</span></h1>
+    </div>
+    <div class="slider"></div>
+  </div>
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="https://github.com/mattholmescodes/ODA-NDB/">
+          <img class="slide-img" src="./ODALogo.png" alt="ODA project screenshot" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="https://github.com/mattholmescodes/Go-Local-North-Wales-Final">
+          <img class="slide-img" src="./Go.png" alt="Go Local project screenshot" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="https://github.com/mattholmescodes/Sentimental-Readability/">
+          <img class="slide-img" src="./Readability.jpg" alt="Readability project screenshot" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="https://github.com/mattholmescodes/CS50-Fiftyville/">
+          <img class="slide-img" src="./Fiftyville.jpg" alt="Fiftyville project screenshot" />
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a href="https://github.com/mattholmescodes/Portfolio/">
+          <img class="slide-img" src="./Website.jpg" alt="Portfolio project screenshot" />
+        </a>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.2.8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      autoHeight: true,
+      autoplay: { delay: 3000 },
+      pagination: { el: '.swiper-pagination', clickable: true },
+      navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+      effect: 'cube',
+      cubeEffect: {
+    slideShadows: false,
+  },
+    });
+  </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+    integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./app.js"></script>
+</body>
+</html>
