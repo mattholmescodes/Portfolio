@@ -12,7 +12,8 @@ main {
 .landing {
   position: relative;
   min-height: 100vh;
-  background: url("./beach.png") no-repeat center/cover;
+  background: url("./beach.png");
+  background-size: cover;
   padding: 0 5rem;
 }
 
