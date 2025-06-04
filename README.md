@@ -17,6 +17,7 @@ Each page is styled with custom fonts and backgrounds. The site features respons
 - GSAP animations
 - Embedded CV PDF
 - Contact section with image and styled boxes
+- Swiper.js
 
 ## Getting Started
 
@@ -43,18 +44,3 @@ To view the site locally:
      # OR
      xdg-open index.html  # On Linux
      ```
-
-
-## Notes
-
-- If your PDF or image files are too large for GitHub, consider using **Git LFS (Large File Storage)**.
-
-### To set up Git LFS:
-
-```bash
-git lfs install
-git lfs track "*.pdf" "*.jpg" "*.png"
-git add .gitattributes
-git add your-cv.pdf Me.jpg contact.png
-git commit -m "Track large files with Git LFS"
-```
